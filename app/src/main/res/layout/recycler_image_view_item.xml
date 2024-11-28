@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="?listPreferredItemHeight">
+
+    <ImageView
+        android:id="@+id/recycler_image_view_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image_default_description"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <ProgressBar
+        android:id="@+id/recycler_image_view_item_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:indeterminate="true" />
+</RelativeLayout>

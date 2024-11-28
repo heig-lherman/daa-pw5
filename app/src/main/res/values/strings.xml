@@ -1,7 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Labo 5</string>
 
     <string name="image_default_description">Downloaded image</string>
-
     <string name="menu_controls_action_refresh_title">Refresh</string>
+    <string name="toast_cache_cleared">Cache has been cleared</string>
+    <string name="toast_cache_not_cleared">Cache could not be cleared</string>
 </resources>

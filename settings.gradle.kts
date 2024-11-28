@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "template"
+rootProject.name = "labo5"
 include(":app")
  

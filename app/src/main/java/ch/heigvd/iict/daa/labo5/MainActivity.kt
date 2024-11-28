@@ -1,4 +1,4 @@
-package ch.heigvd.iict.daa.template
+package ch.heigvd.iict.daa.labo5
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

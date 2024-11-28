@@ -24,6 +24,15 @@ import java.io.IOException
 import java.net.URL
 import kotlin.time.Duration.Companion.minutes
 
+/**
+ * Adapter for the recycler view in the main activity, it handles loading the data from the
+ * remote server as well as caching using the provided cache directory. All I/O operations are
+ * done in the IO coroutine context.
+ *
+ * @author Emilie Bressoud
+ * @author Loïc Herman
+ * @author Sacha Butty
+ */
 class ImageRecyclerAdapter(
     context: Context,
     private val scope: LifecycleCoroutineScope,
